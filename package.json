@@ -1,6 +1,6 @@
 {
   "name": "react-native-env-json",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A Babel preset let you `import` application configs (environment variables) from **json** file (zero runtime dependency)",
   "main": "index.js",
   "keywords": [
