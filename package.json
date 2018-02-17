@@ -1,0 +1,26 @@
+{
+  "name": "react-native-env-json",
+  "version": "0.1.1",
+  "description": "A Babel preset let you `import` application configs (environment variables) from **json** file (zero runtime dependency)",
+  "main": "index.js",
+  "keywords": [
+    "env",
+    "json",
+    "babel-plugin",
+    "react-native",
+    "config"
+  ],
+  "bugs": {
+    "url": "https://github.com/digital-flowers/react-native-env-json/issues"
+  },
+  "homepage": "https://github.com/digital-flowers/react-native-env-json#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digital-flowers/react-native-env-json"
+  },
+  "author": "Fareed Alnamrouti <digital.flowers@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-env-json": "^1.0.0"
+  }
+}
