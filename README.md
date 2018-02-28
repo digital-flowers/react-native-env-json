@@ -1,6 +1,6 @@
 # react-native-env-json
 
-Let you `import` environment variables from a **json** file in React Native, **don't** need any native code integration.
+Let you `import` environment based variables as JSON in React Native, don't need any native code integration.
 
 [![npm version](https://img.shields.io/npm/v/react-native-env-json.svg?style=flat-square)](https://www.npmjs.com/package/react-native-env-json)
 [![npm downloads](https://img.shields.io/npm/dt/react-native-env-json.svg?style=flat-square)](https://www.npmjs.com/package/react-native-env-json)
