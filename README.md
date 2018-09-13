@@ -15,14 +15,21 @@ Add the `react-native-env-json` preset to your **.babelrc** file at the project 
 
 ```json
 {
-  "presets": ["react-native", "react-native-env-json"]
+  "presets": [
+    ...
+    "react-native-env-json"
+  ]
 }
 ```
 
-If you haven't got **.babelrc** set up for React Native, remember to install `babel-preset-react-native` first.
-
-```sh
-$ npm install babel-preset-react-native --save-dev
+If you want to change the path of the env files you can use the configDir option, for example.
+```json
+{
+  "presets": [
+    ...
+    ["react-native-env-json",{configDir: "/your/config/directory"}]
+  ]
+}
 ```
 
 ## Usage
